@@ -218,6 +218,13 @@
         height: 48px;
       }
     }
+
+    /* Upcoming Etsy store migration announcement */
+    .shop-move-notice{margin:4px 0 22px;padding:17px 16px;border:1px solid rgba(23,61,51,.28);border-radius:17px;background:#eef3e8;text-align:left;box-shadow:0 5px 15px rgba(23,61,51,.045)}
+    .shop-move-notice h2{margin:0 0 8px;font-size:18px;line-height:1.25;color:var(--forest)}
+    .shop-move-notice p{margin:0 0 12px;font-size:13px;line-height:1.6;color:#3a5145}
+    .shop-move-notice .shop-move-link{display:inline-flex;align-items:center;gap:7px;padding:10px 14px;border-radius:11px;background:var(--forest);color:#fffdf8;text-decoration:none;font-weight:800;font-size:13px}
+    .shop-move-notice .shop-move-link:hover,.shop-move-notice .shop-move-link:focus-visible{background:var(--forest-2);outline:2px solid var(--tan);outline-offset:2px}
   </style>
 </head>
 
@@ -231,6 +238,12 @@
     >
 
     <p class="tagline">Shop our 3D printed creations and follow Boreal Layer Co online.</p>
+    <section class="shop-move-notice" aria-labelledby="shop-move-title">
+      <h2 id="shop-move-title">Our Etsy shop is moving soon!</h2>
+      <p>We're getting our own online store ready at <strong>boreallayerco.ca</strong>. All existing coupons will carry over when our new store opens. You can still shop on Etsy in the meantime.</p>
+      <a class="shop-move-link" href="https://boreallayerco.ca">Visit our website <span aria-hidden="true">›</span></a>
+    </section>
+
     <div class="divider" aria-hidden="true"></div>
 
     <nav class="links" aria-label="Boreal Layer Co. shop, social media, contact and reviews">
